@@ -1,141 +1,190 @@
-/* Base Styles */
+body
+ {
 
-* {
-	box-sizing: border-box;
+ font-size: 16px;
+ 
+ color: #000000;
+ 
+ background-color: white;
+  
+ font-family: "HelveticaNeue-Light";
+
+  font-weight: 300;
+ 
+ font-size: 10px;
+ 
+ margin-left: -15px; 
+
+  margin-right: -15px;
+
 }
 
-h1 {
-	font-family: Brushstroke, fantasy;
-	color: #000000;
+
+
+#header-nav 
+{
+
+  background-color:tan;
+
+  height: 8vw;
+
+  margin: 0px;
+ 
+ padding: 0px;
+ 
 }
 
-body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
+.navbar-brand 
+{
+
+  padding: 10px;
 
 }
 
-p {
-	padding: 10px;
-	margin: 0;
+.navbar-brand h1
+ {
+
+  color: maroon;
+ 
+ font-size: 5vw;
+
+  margin-top: 0;
+ 
+ margin-bottom: 0;
+  
+line-height: .75;
+
+  padding: 1vw;
+ 
+ padding-left: 15px;
+
+  padding-bottom: 10px;
+
 }
 
-.container {
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
+.navbar-brand a:hover, .navbar-brand a:focus
+ {
+
+  text-decoration: none;
+
 }
 
-section {
-	border:	1px solid black;
-	background-color: #00FF99;
-	width: 100%;
-	height: auto;
-	font-family: Helvetica;
-	color: black;
-	position: relative;
-	overflow: auto;
+.navbar-header
+{
+
+  padding-right: 25px;
+
+  padding-left: 25px;
+
 }
 
-#chicken {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FFFF00;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+
+  border: 1px solid black;
+
 }
 
-#beef {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FF1439;
+#nav-list li
+{
+
+  width: 100%;
+
+  padding: auto; 
+
+  text-align: center;
+ 
+ font-size: 3vw;
+
+  color: maroon;
+
 }
 
-#sushi {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
-	padding: 5px;
+#collapsable-nav
+{
+
+  background-color: tan;
+
 }
 
-#chicken-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
+hr 
+{
+ 
+  display: block;
+
+  margin-top: 0.5em;
+ 
+ margin-bottom: 0.5em;
+
+  margin-left: auto;
+ 
+ margin-right: auto;
+
+  border-style: inset;
+
+  border-width: 1px;
+
+
 }
 
-#beef-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
+/* end of header*/
+
+
+.container
+{
+
+  margin: 0px;
+
+  padding-left: 100px;
+  
+padding-right: 100px;
+  
+width: 100%;
+
 }
 
-#sushi-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
+.text-center
+{
+
+  padding: 25px auto 25px;
+
 }
 
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
+#menu
+{
+
+  margin-bottom: 1vw;
+  
+padding: 25px;
+
 }
 
-#header-nav {
-  border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
+#menu h2
+{
+
+  font-size: 4.5vw;
+
+
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+#chicken-box
+{
+
+  background-color: tan;
+
+  font-size: 3vw;
+
+  margin-top: 5px;
+
 }
 
-.nav-header {
-  background-color: #FFFFFF;
-}
+#chicken-box h3
+{
 
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
-}
+  padding-top: 5px;
 
-#nav-list {
-  color: white;
-}
+  margin: 25px 0px 25px;
+  
+  font-size: 4vw;
 
-hr {
-  border-color: white;
-}
-
-.item {
-  color: white;
-  font-size: 1.2em;
 }
